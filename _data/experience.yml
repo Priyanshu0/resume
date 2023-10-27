@@ -1,19 +1,54 @@
 # Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+- company: BlueOptima
+  position: Associate Machine Learning Data Engineer
+  location: Bengaluru, Karnataka
+  duration: 09/2022 &mdash; 10/2023
+  summary: 	<ul class="resume-item-list">
+<li>Individually built the Graph Modeling capability and an end-to-end pipeline to detect developer induced vulnerability in static code repositories i.e Static Vulnerability Detection (SVD).</li>
+<li>Experimented with various pre-trained models such as Large Graph Transformers, StarCoder, GraphCode-Bert, Word2Vec with TF-IDF and Word Piece Tokenizer and also fine tuned them for generating node feature and edge feature vectors to develop Graph NNs  for the SVD project. This resulted in achieving a 20% uptick in the precision of the models by having the right embeddings for the input features.</li>
+<li>Built heterogeneous GNN models by experimenting with  a combination of different graph layers like GatConv, GCNConv, TransformerConv, and HeatConv from the PyTorch Geometric and DGL Libraries. These graph layers gave the flexibility to incorporate different node and edge feature dimensions.</li>
+<li>The GNN models achieved a precision score in the range of 85% to 95% on natural data points for vulnerability detection in Java language for the most common 5 weakness enumerations (CWEs), via multiple hyperparameter sweeps and benchmarking techniques along with graph data augmentation using the regex approach and fixing graph representation bugs.</li>
+<li>Pioneered the capability to interpret the output of GNN models using Captum module and Perturbrations approach. This helped in identifying which input features the model was focusing on and the areas where the model was consistently failing. Using this feedback loop we decreased the False Positive Rate (FPR) of our predictions and increased the AUC by 25 %. Built an end-to-end interpretations pipeline for the same for reproducibility and inferencing.</li>
+<li>Contributed to engineering the graph representation of static code files which resulted in a complex Hybrid Graph Structure as an output having rich source of information from a combination of AST (Abstract Syntax Tree), DFG (Data Flow Graph) and CFG (Control Flow Graph) graphs. Reduced the error rate by 30% in these representations by fixing bugs for different edge cases  and improving the workflow structure.</li>
+<li>Led the methodology to color nodes in hybrid graphs to correct the mislabelled training data points which resulted in correcting the labels for 15% of the data points. Built a custom deduplication approach for input graph data points based on the Jaccard Rule.</li>
+<li>Handled data imbalance in the SVD project by modifying the Cross-Entropy Loss function with class weights, augmenting data for the undersampled classes and implementing different sampling/ batching techniques based on metadata information of the data points.</li>
+</ul>
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: BlueOptima
+  position: Graduate Machine Learning Data Engineer
+  location: Bengaluru, Karnataka
+  duration: 01/2022 &mdash; 09/2022
+  summary: <ul class="resume-item-list">
+<li>Led the Beta Release of the Pure Coding Time Estimation (PCTE) Project that accurately estimates coding effort (ACE) of a developer by achieving a correlation of over 0.4 with the user coding  activity data. PCTE is an unsupervised modeling approach designed to model the coding behavior of a developer by using just their commit history timestamps as input data. The release involved building 26,000 developer models  and outputting their generic coding behavior pattern.</li>
+<li>Successfully flagged non-developer activity using the PCTE project results, reducing erroneous coding effort awarded to non-developer activity by 10%. Built interactive Grafana dashboards for reporting results to stakeholders and persisted the results in a PostGres DB.</li>
+<li>Built an out of the box hybrid model with a combination of ANN + Hidden Markov Model (HMM) for the PCTE project which was the best suited architecture to solve this problem.</li>
+<li>Innovated the approach of calculating the Emission Matrix in the PCTE project, by developing another approach of Peak Model Unit Equivalence (PMUE) which gives the time spent, in minutes, by a rockstar developer in churning out 1 unit of coding effort. This is called e-value which is then used to calculate the Emission Matrix, one of the 3 inputs to the HMMs.</li>
+<li>Utilized PMUE values to correct the coding effort multiplier value for different clients and also served as a validation process for the same.</li>
+<li>Automated the Custom Wakatime Flask Microservice and the Wakatime IDE Plugin installation used to fetch the simulation data for the PCTE project which resulted in saving 30% of the time spent to keep the service running and also eliminated the manual installation effort completely  on the developer’s end. Deployed the automation scripts from UEM (User Engine Management) onto the developer’s system.</li>
+<li>Implemented Custom Task Queues using Redis backend as a POC to achieve fine parallelism on the K8s cluster and to reduce the manual effort of scheduling runs. This reduced the time spent on manual effort by 40%.</li>
+<li>Developed an ETA estimation microservice tool for historical extractions of repository metrics of Clients using Time Series Forecasting and Regression modeling. Deployed it on an dedicated AWS EC2 instance using 3 containers for horizontal scaling. Built it as the first in-house asynchronous microservice which updates the REST API request status using a polling mechanism fetching results from an Sqlite3 db at the backend.</li>
+</ul>
 
+- company: Widhya
+  position: Techinical Context Writer Intern
+  location: Hyderabad
+  duration: 05/2020 &mdash; 08/2020
+  summary: Built hands-on byte sized learning modules for the Widhya website for students to learn Data Analysis and Machine Learning concepts using the implementation first approach.
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: IIIT Allahabad
+  position: Winter Research Intern
+  location: Prayagraj
+  duration: 12/2019 &mdash; 01/2020
+  summary: Implemented Fuzzy Logic type 1 and type 2 sets using KM Algorithm approach, in Python, under the mentorship of Prof. U. S. Tiwary, IIIT Allahabad as a Winter Research Intern.
+
+- company: Qin1
+  position: Online Enducator
+  location: Online
+  duration: 07/2019 &mdash; 11/2019
+  summary: Taught the basics of Python Programming to students in the age group of 10 to 15 years along with small utility apps using MIT APP Inventor tool.
+
+- company: Reliance Industries
+  position: Summer Intern
+  location: Navi Mumbai
+  duration: 06/2019 &mdash; 07/2019
+  summary: Implemented Fuzzy Logic type 1 and type 2 sets using KM Algorithm approach, in Python, under the mentorship of Prof. U. S. Tiwary, IIIT Allahabad as a Winter Research Intern.
