@@ -1,7 +1,7 @@
 # Skills
 - category: Languages
-- skill: <ul><li>Python</li><li>C++</li></ul>
+- skill: <li>Python</li><li>C++</li>
 - category: Technology
-- skill: <ul><li>Tensorflow</li><li>Pytorch</li><li>Flask</li><li>Git</li><li>PostgreSQL</li><li>Grafana</li><li>Postman</li><li>REST API</li><li>Docker</li><li>Kubernetes</li>M<li>icroservices</li><li>Pandas</li><li>Numpy</li><li>Sklearn</li><li>Matplotlib</li><li>Celery</li><li>Redis</li><li>Rabbitmq</li><li>DGL</li><li>Pytorch Geometric</li><li>AWS</li><li>Debugging</li></ul>
+- skill: <li>Tensorflow</li><li>Pytorch</li><li>Flask</li><li>Git</li><li>PostgreSQL</li><li>Grafana</li><li>Postman</li><li>REST API</li><li>Docker</li><li>Kubernetes</li><li>Microservices</li><li>Pandas</li><li>Numpy</li><li>Sklearn</li><li>Matplotlib</li><li>Celery</li><li>Redis</li><li>Rabbitmq</li><li>DGL</li><li>Pytorch Geometric</li><li>AWS</li><li>Debugging</li>
 - category: Concepts
-- skill: <ul><li>Machine Learning</li><li>Deep Learning</li><li>NLP</li><li>GNN</li><li>HMM</li><li>Graph Transfomers</li><li>Feature Engineering</li><li>Data Curation</li><li>Data Modeling</li><li>Workflow building</li><li>ML Pipeline building</li><li>Time Series Forecasting</li><li>Predictive Modelling</li><li>Classification</li><li>Unsupervised Learning</li><li>DSA</li><li>Multi-GPU Training</li><li>OOP</li></ul>
+- skill: <li>Machine Learning</li><li>Deep Learning</li><li>NLP</li><li>GNN</li><li>HMM</li><li>Graph Transfomers</li><li>Feature Engineering</li><li>Data Curation</li><li>Data Modeling</li><li>Workflow building</li><li>ML Pipeline building</li><li>Time Series Forecasting</li><li>Predictive Modelling</li><li>Classification</li><li>Unsupervised Learning</li><li>DSA</li><li>Multi-GPU Training</li><li>OOP</li>
