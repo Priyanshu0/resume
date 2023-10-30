@@ -1,0 +1,70 @@
+# Certificates
+# uncomment the urls if you wish to display them, and add your own URL
+
+- certificate: TensorFlow Developer Certificate
+  issuing_organization: Google
+  issue_date: 2022 &mdash; 2025
+  url: "https://www.credential.net/abc8b098-0b9b-4bf2-95d3-3bbea275275b"
+  credential_ID: 61237076
+
+- certificate: Natural Language Processing in TensorFlow
+  issuing_organization: Coursera
+  issue_date: 2020
+  url: "https://www.coursera.org/account/accomplishments/certificate/8F4FP3ERCRTJ"
+  credential_ID: 8F4FP3ERCRTJ
+
+
+- certificate: Convolution Neural Networks in TensorFlow
+  issuing_organization: Coursera
+  issue_date: 2020
+  url: "https://www.coursera.org/account/accomplishments/certificate/JEBKF6DGVPGY"
+  credential_ID: JEBKF6DGVPGY
+
+
+- certificate: Sequence Models
+  issuing_organization: Coursera
+  issue_date: 2020
+  url: "https://www.coursera.org/account/accomplishments/certificate/QKVBBZEQ29WY"
+  credential_ID: QKVBBZEQ29WY
+
+
+- certificate: Machine Learning
+  issuing_organization: Coursera
+  issue_date: 2020
+  url: "https://www.coursera.org/account/accomplishments/certificate/3QAYM7K8YAZL"
+  credential_ID: 3QAYM7K8YAZL
+
+
+
+- certificate: Neural Networks and Deep Learning
+  issuing_organization: Coursera
+  issue_date: 2020
+  url: "https://www.coursera.org/account/accomplishments/certificate/5F8RJ8T7KZ5N"
+  credential_ID: 5F8RJ8T7KZ5N
+
+
+- certificate: Structuring Machine Learning Projects
+  issuing_organization: Coursera
+  issue_date: 2020
+  url: "https://www.coursera.org/account/accomplishments/certificate/3HEXKQ8BVZSU"
+  credential_ID: 3HEXKQ8BVZSU
+
+
+- certificate: Improving Deep Neural Networks Hyperparameter tuning, Regularization and Optimization
+  issuing_organization: Coursera
+  issue_date: 2020
+  url: "https://www.coursera.org/account/accomplishments/certificate/5V7RJTTMR3RN"
+  credential_ID: 5V7RJTTMR3RN
+
+
+
+- certificate: Design and Analysis of Algorithms
+  issuing_organization: NPTEL
+  issue_date: 2019
+  credential_ID: NPTEL19CS47S51200165
+
+
+- certificate: Programming, Data Structures and Algorithms using Python
+  issuing_organization: NPTEL
+  issue_date: 2019
+  credential_ID: NPTEL19CS08S21580035
