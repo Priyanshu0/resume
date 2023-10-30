@@ -166,7 +166,7 @@
         {% for certificate in site.data.certificates %}
         <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{% if certificate.url %}<a href="{{ certificate.url }}">{{ certificate.certifcate }}</a>{% else %}{{ certificate.certificate }}{% endif %}</h3>
-          <h4 class="resume-item-details" itemprop="credentials">{{ certificate.issuing_organization } &bull; { certificate.credential_ID }} &bull; {{ certificate.issue_date }}</h4>
+          <h4 class="resume-item-details" itemprop="credentials">{{ certificate.issuing_organization}} &bull; {{certificate.credential_ID}} &bull; {{certificate.issue_date}}</h4>
           <!-- <p class="resume-item-copy">{{ association.summary }}</p> -->
         </div>
         {% endfor %}
