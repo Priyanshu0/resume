@@ -1,0 +1,44 @@
+# Projects
+# uncomment the urls if you wish to display them, and add your own URL
+
+- project: Online Purchasing Intention WebApp
+  role: Individual Contributor
+  duration: 2020 &mdash; 2020
+  url: "https://github.com/Priyanshu0/Online-Purchasing-Intention-webapp"
+  description: A web app to predict the likelihood of a customer to buy a product online.
+
+
+- project: Credit Card Default Prediction app
+  role: Indiviudal Contributor
+  duration: 2020 &mdash; 2020
+  url: "https://github.com/Priyanshu0/Credit-Card-Default-Prediction-Webapp"
+  description: A web app to predict the probability of making a credit card default. 
+
+
+- project: Fuzzy Logic type 1 and type 2 module in Python
+  role: Individual Contributor
+  duration: 2019 &mdash; 2019
+  url: "https://github.com/Priyanshu0/Fuzzy-Logic-Implementation"
+  description: A Python package for fuzzy type 1 and type 2 sets using the KM Algorithm approach for weighted average. 
+
+
+- project: Charity Website
+  role: Hackathon Team Member
+  duration: 2019 &mdash; 2019
+  url: "https://github.com/Priyanshu0/charity_website"
+  description: A charity website to donate clothes, food and money to NGOs for serving the needy people. 
+
+
+- project: Outlier Removal Package using Z Score and IQR
+  role: Individual Contributor
+  duration: 2019 &mdash; 2019
+  url: "https://github.com/Priyanshu0/Outlier-Removal-Using-Z-score https://github.com/Priyanshu0/Outlier_Removal_Using_IQR"
+  description: A python package to remove outliers from a dataset using Z-score and IQR methods. 
+
+
+
+- project: TOPSIS
+  role: Individual Contributor
+  duration: 2019 &mdash; 2019
+  url: "https://github.com/Priyanshu0/TOPSIS-Python-Implementation"
+  description: A python implementation of TOPSIS method for multiple criteria decision making.
